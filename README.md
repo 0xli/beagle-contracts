@@ -1,5 +1,28 @@
 # beagle-contracts
 Smart contracts for beagle chat
+BeaggleToken:
+```
+    uint256 public totalSupply = 210000000;
+```
+BeagleIM:
+- reward
+```
+getRegistedReward: one time 
+getLoginReward:per day
+```
+BeagleTokenSale:
+```
+denominated in the underlying cryptocurrentcy of the blockchain
+1 Ether = 1000 Beagle
+function buyTokens(uint256 _numberOfTokens) public payable {...}
+```
+ShhData
+```
+function getENSName() public view returns(string keyId) {...}
+function publishENS(string ensname) public returns (bool success) {...}
+function publishENSAddress(string ensname, address addres) public returns (bool success) {...}
+```
+Deployed
 - Contracts developed on Evmos Testnet
 ```
 BeagleToken: 0xF03B3b68f7643EB3354D2098f30b00e02049b774
