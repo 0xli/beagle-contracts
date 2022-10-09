@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 /*
-*   A smart contract for sale Fax Token with Ether.
+*   A smart contract for sale Beagle Token with Ether.
 *
 *   Version: 1.0.0
 *   Update Time: 2019/05/06

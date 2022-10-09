@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 /*
-*   A smart contract for Fax Token(ERC20 Standard Token).
+*   A smart contract for Beagle Token(ERC20 Standard Token).
 *   Beagle Token was a ERC20 token that published in Ethereum Network (Main/Test network).
 *   Beagle Token has a total fixed number of 210,000,000.
 *
